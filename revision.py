@@ -132,13 +132,3 @@
 # string =" [{()}"
 # print ( "string" , " -" , checkp(string))
             
-----------------------------
-
-def tower_of_hanoi(disks,source,auxillary,target):
-    if(disks==1)
-    print('Move disk 1 from rod{}to rod{}'.format(source,target))
-    tower_of_hanoi(disks-1,source,target,auxillary)
-    print('move disk{}from rod{}to rod{}'.format(disks,source,target))
-    tower_of_hanoi(disks-1,auxillary,source,target)
-    disks=int(input('Enter the number of disks':))
-    tower_of_hanoi(disks("a","b","c"))
